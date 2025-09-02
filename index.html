@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma chaîne Twitch</title>
+    <!-- Inclure Font Awesome pour les icônes de réseaux sociaux -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* Styles généraux pour le corps de la page */
+        body {
+            background-color: #18181b; /* Couleur de fond sombre typique de Twitch */
+            color: #efeff1; /* Texte blanc/gris clair */
+            font-family: 'Inter', sans-serif; /* Police moderne et lisible */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        /* Conteneur principal pour le profil */
+        .profile-container {
+            background-color: #232328;
+            border-radius: 15px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+            max-width: 500px;
+            width: 90%;
+            transition: transform 0.3s ease;
+        }
+
+        .profile-container:hover {
+            transform: translateY(-5px); /* Effet de survol léger */
+        }
+
+        /* Styles pour l'image de profil */
+        .profile-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /* Image de profil circulaire */
+            object-fit: cover;
+            border: 4px solid #9146ff; /* Bordure violette de Twitch */
+            margin-bottom: 20px;
+        }
+
+        /* Styles pour le nom de la chaîne */
+        .channel-name {
+            font-size: 2.5rem;
+            font-weight: bold;
+            margin: 0;
+            color: #fff;
+        }
+
+        /* Styles pour la description */
+        .channel-bio {
+            font-size: 1.1rem;
+            color: #a0a0a0;
+            margin-top: 10px;
+        }
+
+        /* Styles pour le bouton Twitch */
+        .twitch-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #9146ff; /* Couleur principale de Twitch */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-top: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        .twitch-button:hover {
+            background-color: #772ce8; /* Couleur plus foncée au survol */
+        }
+
+        /* Styles pour les liens de réseaux sociaux */
+        .social-links {
+            margin-top: 30px;
+        }
+
+        .social-links a {
+            color: #fff;
+            font-size: 2rem;
+            margin: 0 15px;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #9146ff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-container">
+        <!-- Remplacez l'URL de l'image ci-dessous par celle de votre photo de profil -->
+        <img src="https://i.postimg.cc/W4tVPKXL/unnamed-1.png" alt="Photo de profil" class="profile-image">
+        
+        <!-- Remplacez "NomDeVotreChaîne" par votre nom de chaîne Twitch -->
+        <h1 class="channel-name">Kirimdal</h1>
+        
+        <!-- Une courte bio ou description de votre chaîne -->
+        <p class="channel-bio">
+            Bienvenue ! Je vous montre le quotidien de Nathan Ryan une pm accompagner de jax son cousin et Revan un ami . Rejoignez la communauté !
+        </p>
+        
+        <!-- Remplacez l'URL ci-dessous par le lien de votre chaîne Twitch -->
+        <a href="https://www.twitch.tv/kirimdal" class="twitch-button" target="_blank">
+            Regarder le Stream
+        </a>
+
+        <!-- Liens vers d'autres réseaux sociaux -->
+        <div class="social-links">
+            <!-- Remplacez les liens # par les vôtres -->
+            <a href="https://x.com/kirimdal" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.youtube.com/@KirimdalReplay" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+
+</body>
+</html>
